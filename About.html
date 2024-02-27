@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="responsiveTablet.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+   <div> <!--main div --------------------------------   -->
+    <nav>
+      <div class="logo">
+
+          <img src="/GYM/Image/images/fitness logo.png" alt="">
+
+      </div>
+        <input type="checkbox" name="" value="" id="check">
+        <label for="check" id="checkbtn"> <i class="fa fa-bars"></i> </label>
+
+      <div class="ok">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/GYM/class.html">Classes</a></li>
+          <li><a href="/GYM/product.html">Products</a></li>
+          <li><a href="/GYM/Blog.html">Blogs</a></li>
+          <li> <button id="navbtn" class="popup-button" onclick="togglePopup()">Join Us</button></li>
+
+      </ul>
+   </div>
+   </nav>
+  <!-- nav end-->
+
+
+  <!-- popup botton start-->
+  
+  <div>
+    <div class="xis">
+
+        <div class="popup-container">
+          
+          <div class="popup" id="popup">
+            <span class="popup-close" onclick="togglePopup()">&times;</span>
+            <form class="popup-form">
+              <label for="name">Full Name:</label><br>
+              <input type="text" id="name" placeholder="Enter your Name" name="name" required><br>
+              
+        
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" placeholder="xxxxx@gmail.com" name="email" required><br>
+      
+              <label class="ok" for ="Mobile" >Mobile Number</label><br>
+              <input type="number" id="number" name="number" placeholder="xxxxx xxxxx" required><br>
+      
+              <label for=""><b>Duration:</b></label>
+              <div class="radio-container1">
+                <label class="lab1">
+                  <input type="radio" name="radioGroup" id="radio1" value="month">
+                  Monthly
+                </label>
+                <label class="lab2">
+                  <input type="radio" name="radioGroup" id="radio2" value="year">
+                  Yearly
+                </label>
+      
+              </div>
+              <label for=""><b>Mode of payment:</b></label>
+              <div class="radio-container">
+                <label>
+                  <input type="radio" name="radioGroup" id="radio1" value="cash">
+                  Cash
+                </label>
+                
+                <label>
+                  <input type="radio" name="radioGroup" id="radio2" value="online">
+                  Online
+                </label>
+                </div>
+                <label for=""><b>Personal Training:</b><span class="sp">*free with yearly plan</span></label>
+              <div class="radio-container">
+                <label>
+                  <input type="radio" name="radioGroup" id="radio1" value="required">
+                  Required
+                </label><br>
+                
+                <label>
+                  <input type="radio" name="radioGroup" id="radio2" value="notRequired">
+                  Not required
+                </label>
+                </div>
+      
+      
+                <div class="checkbox-container">
+                  <input type="checkbox" id="acceptTerms" name="acceptTerms" required/>
+                  <label class="la" for="acceptTerms" class="accept">I accept all terms and conditions provided in this form.</label>
+                    <button type="submit">Submit</button>
+                </div>
+        
+              
+            </form>
+          </div>
+        </div>
+        
+        <script>
+          function togglePopup() {
+            const popup = document.getElementById('popup');
+            popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'block' : 'none';
+          }
+        </script>
+        </div>
+   </div>
+    <!-- popup botton end-->
+
+
+    <!-- First Section Start-->
+
+   <div class="first">
+    <img src="/GYM/Image/images/scott-webb-Vn39uEkX00s-unsplash.jpg" alt="">
+
+    <div class="first-1">
+      <h1 style="color:white"> Revitalize your body</h1>
+      <br>
+      <h6 style="color:white">Fall in love with taking care of yourself<br>
+         mind, body, and sprit.</h6>
+         <br>
+         <div class="btnx">
+          <button id="btn1" class="popup-button" onclick="togglePopup()">Get Started</button>
+          <button id="btn2" class="popup-button" onclick="togglePopup()">Free Trial-></button>
+         </div>
+
+    </div>
+   
+   </div>
+
+   <!--First Section End-->
+
+   <!-- Second Section Start-->
+   <div class="second">
+    <div class=" second-box">
+      <div class="whatsp"><i class="fa-brands fa-whatsapp"></i></div>
+      <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+      <div class="yt"><i class="fa-brands fa-youtube"></i></div>
+  </div>
+    <div class="second-1">
+      <h2 style="border-bottom: 3px;">Fitness Plans & Nutritions</h2>
+    </div>
+    <div class="second-2">
+      <div class="second-3">
+    <div>
+     <img src="/GYM/Image/images/icons8-weight-pound-50.png" alt="">
+     <h4>Weight Loss</h4>
+    </div>
+    <div class="st" id="yoga">
+      <img src="/GYM/Image/images/icons8-yoga-50.png" alt="">
+      <h4>Classic Yoga</h4>
+    </div>
+    <div id="cycle" class="st">
+       <img src="/GYM/Image/images/icons8-cycling-50.png" alt="">
+       <h4>Cycling</h4>
+    </div>
+  </div>
+    <div class="second-4">
+    <div class="building">
+       <img src="/GYM/Image/images/icons8-biceps-50.png" alt="">
+        <h4>Body Building</h4>
+      </div>
+    <div id="hyper" class="st">
+     <img src="/GYM/Image/images/icons8-barbell-50.png" alt="">
+     <h4>Hypertrophy</h4>
+    </div>
+    <div id="running" class="st">
+       <img src="/GYM/Image/images/icons8-running-50.png" alt="">
+       <h4>Running</h4>
+    </div>
+  </div>
+
+  </div>
+
+   </div>
+
+   <!-- second section end-->
+
+
+   <!-- Third section Start-->
+
+
+   <div class="third">
+    <h2 class="subscription"> Subscription Plans</h2>
+
+    <div class="third-1">
+      <div class="third-card-1">
+        <h2>Basic</h2>
+        <h6 style="text-align: center;color: beige;">for 12 months</h6>
+        <h2>800/month</h2>
+        <h6 style="text-align: center; padding-bottom: 20px;color: beige;">for streaming</h6>
+        <button   style="margin-left: 10px; padding-bottom: 5px;" class="popup-button" onclick="togglePopup()">Select Plan</button>
+
+      </div>
+      <div class="third-card-2">
+        <h2>Intermediate</h2>
+        <h6 style="text-align: center;color: beige;">for 12 months</h6>
+        <h2>1000/month</h2>
+        <h6 style="text-align: center; padding-bottom: 20px;color: beige;">for streaming</h6>
+        <button   style="margin-left: 10px; padding-bottom: 5px;" class="popup-button" onclick="togglePopup()">Select Plan</button>
+
+      </div>
+      <div class="third-card-3">
+        <h2>Advanced</h2>
+        <h6 style="text-align: center;color: beige;">for 12 months</h6>
+        <h2>1500/month</h2>
+        <h6 style="text-align: center; padding-bottom: 20px;color: beige;">for streaming</h6>
+        <button   style="margin-left: 10px; padding-bottom: 5px;" class="popup-button" onclick="togglePopup()">Select Plan</button>
+
+      </div>
+      
+     
+      
+
+    </div>
+
+    
+   </div>
+
+
+   <!-- Third Section End -->
+
+
+
+   <!-- 4th Section Start-->
+
+   <div class="four">
+    <div class="four-1">
+     
+    </div>
+
+    <div class="four-2">
+
+    </div>
+
+    <div class="four-middle">
+
+
+      <div class="four-middle-1">
+        <img src="/GYM/Image/Image-1/gm 1.png" alt="">
+         <h2>Good Management</h2>
+         <h6>What hurts today makes you stronger<br> tomorrow</h6>
+
+      </div>
+
+      <div class="four-middle-2">
+        <img src="/GYM/Image/Image-1/ps1 1.png" alt="">
+        <h2> Practice Sessions</h2>
+        <h6>Motivation is what gets you started</h6>
+
+      </div>
+
+      <div class="four-middle-3">
+        <img src="/GYM/Image/Image-1/ft2 1.png" alt="">
+        <h2>Personal Trainers</h2>
+        <h6>If it doesn't challenge you, it won't <br>change you</h6>
+      </div>
+
+    </div>
+
+   </div>
+
+<!-- 4th section end-->
+
+<!-- 5th section start-->
+
+  <div class="five">
+    <h2 style="padding-top: 15px;"> Success Stories</h2>
+    <div class="five-1">
+    <div class="five-2">
+      <img src="/GYM/Image/images/james-barr-jYrFcbztIHA-unsplash.jpg" alt="">
+      <h5>Lorem, ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Explicabo, labore.</h5>
+    </div>
+    <div class="five-3">
+      
+      <img src="/GYM/Image/images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg" alt="">
+      <h5>Lorem ipsum dolor sit amet <br>consectetur, adipisicing <br>elit. Architecto aspernatur</h5>
+    </div>
+    <div class="five-4">
+   <img src="/GYM/Image/images/mark-adriane-xQghSLXYD3M-unsplash.jpg" alt="">
+   <h5>Lorem ipsum dolor sit <br> amet consectetur adipisicing <br>elit. Impedit, consequuntur.</h5>
+    </div>
+    
+  </div>
+  </div>
+
+  <!-- 5th section end-->
+
+  <!--Footer Start-->
+
+  <div class="footer">
+
+    <div class="footer-1">
+       <div class="image">
+           <img src="/GYM/Image/images/fitness logo.png" alt="" height="170px" width="200px">
+       </div>
+       <div class="heading">
+           <h4>Prioritize Your Fitness Goals<br> with our world class services</h4>
+       </div>
+
+    </div>
+
+
+
+    <div class="footer-2">
+      <h3 class=footcontent>Memberships <br>Customer Services</h3>
+
+       <div class="foot-1">
+           <h2>COMPANY</h2>
+           <ul>
+               <li>About</li>
+               <li class="contact">Contact</li>
+               <li>Careers</li>
+               <li class="blog">Blogs</li>
+               <li class="termcondition">Terms & Condition</li>
+           </ul>
+       </div>
+
+       <div class="foot-2">
+           <h2>Contact</h2>
+           <ul>
+               <li>Help/FAQs</li>
+               <li>Press</li>
+               <li>Mobile</li>
+           </ul>
+       </div>
+
+
+       <div class="foot-3">
+           <h2 style="margin-left: -30px;">MORE</h2>
+               <ul>
+                   <li>Program</li>
+                   <li>Plan</li>
+                   <li>Method</li>
+               </ul>
+
+       </div>
+
+
+    </div>
+
+
+
+    <div class="footer-3">
+       <h3 style="text-align: center; padding-bottom: 30px; margin-top: 20px;"><u>Popular Tags</u></h3>
+    <div class="btn">
+       <div class="btn-1">
+           <button class="bt-1">ABS</button>
+           <button class="bt-2">Workout</button>
+       </div>
+    
+          <div class="btn-2"> 
+
+           <button class="bt-3">Nutrition</button>
+           <button class="bt-4" >ABS</button>
+
+          </div>
+
+         
+
+
+         <div class="btn-3">
+           <button class="bt-5">Boxing</button>
+            <button class="bt-6">Trainers</button>
+         </div>
+
+
+         <div class="btn-4">
+           <button class="bt-7">Facilities</button>
+
+         </div>
+
+       </div>
+
+   </div>
+
+    </div>
+
+
+
+    <div class="main-footer">
+      <h2>CopyRight All Rights Reserved </h2>
+    </div>
+
+    <!--footer end-->
+
+
+   </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

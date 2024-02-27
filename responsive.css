@@ -1,0 +1,868 @@
+@media(max-width:500px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+    nav{
+        height: 53px;
+        padding-top: 0px;
+    }
+    #checkbtn{
+        display: block;
+        position: absolute;
+        right:8px;
+        margin-top: 3%;
+    }
+    #check:checked ~ .ok{
+        display: block;
+    }
+    .ok{
+        display: none;
+    }
+  nav .ok ul{
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    nav ul {
+        width: 100%;
+        height: 100vh;
+        background-color:rgb(228, 158, 29,1);
+        text-align: center;
+        line-height: 70px;
+    }
+    nav ul li{
+        margin-top: 0px;
+    }
+    .ok{
+        margin-top:8.4%;
+
+    }
+    #navbtn{
+        margin-left: 10%;
+        height: 40px;
+        margin-top: 5%;
+        background-color: red;
+    
+    }
+    .logo img{
+        width:99px;
+        margin-top: -24px;
+    }
+/* Nav bar end */
+
+/* first div start -----------------------------------------------------------------*/
+
+.first{
+    width: 100%;
+    height: 310px;
+}
+.first img{
+    height: 260px;
+    margin-top: 52px;
+}
+
+
+.first-1 {
+    height: 200px;
+    width: 100%;
+    top:10%;
+    background-color: rgba(30, 20, 5,0.1);
+     }
+.first-1 h1{
+    font-size: 25px;
+    margin-left: 13%;
+    margin-top: -6%;
+    
+}
+.first-1 h6{
+    margin-left: 13%;
+    margin-top: -5%;
+}
+.btnx{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.popup-button{
+    margin-left: 28%;
+}
+#btn2{
+    margin-top: 2%;
+
+}
+
+/* end first div----------------------> */
+
+/* second div start==================? */
+.second-box{
+    display: none;
+}
+
+.second{
+    width: 100%;
+    height: 318px;
+}
+.second-1{
+    padding-top:9px;
+
+}
+.second-1 h2{
+    font-size: 15px;
+}
+.second-3{
+    margin-left: 15%;
+    margin-top: -7%;
+    text-align: center;
+}
+#yoga{
+    padding: 0%;
+    margin-left: 20%;
+    text-align: center;
+}
+#cycle{
+    padding: 0%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left:4% ;
+}
+.second-4 {
+    text-align: center;
+
+
+}
+.building{
+    margin-top: -54%;
+    margin-left: 58%;
+
+}
+#hyper{
+    margin-top: -25%;
+    margin-left: -33%;
+    
+}
+#running{
+    margin-top: -25%;
+    margin-left: 15%;
+
+}
+/* end second div */
+/* div 3 start --------------------> */
+.third{
+    width: 100%;
+    height: 560px;
+    margin-top: -6.5%;
+}
+.third-1{
+    flex-direction: column;
+    margin-left: 29%;
+    
+    
+    
+}
+.subscription{
+    font-size: 20px;
+    display: none;
+}
+.third-card-1{
+    width: 60%;
+    height: 170px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.third-card-1 h2{
+     margin-top: -16%;
+}
+.third-card-1 h6{
+    font-size: 17px;
+}
+.third-card-1 button{
+    font-size: 15px;
+    
+}
+/* second card */
+
+.third-card-2{
+    width: 60%;
+    height: 170px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.third-card-2 h2{
+     margin-top: -16%;
+}
+.third-card-2 h6{
+    font-size: 17px;
+}
+.third-card-2 button{
+    font-size: 15px;
+    
+}
+
+/* third card */
+
+.third-card-3{
+    width: 60%;
+    height: 170px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.third-card-3 h2{
+     margin-top: -16%;
+}
+.third-card-3 h6{
+    font-size: 17px;
+}
+.third-card-3 button{
+    font-size: 15px;
+    
+}
+/* end third div ------------------------------------> */
+
+/* fourth div start-------------------------------------------> */
+.four{
+    height: 700px;
+}
+.four-1{
+    height: 300px;
+    width: 100%;
+}
+.four-2{
+    height: 290px;
+}
+.four-middle {
+    height: 350px;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-top: -125%;
+    position: static;
+    
+}
+.four-middle-1 img{
+    width: 50px;
+    margin-top: -9%;
+}
+.four-middle-2 img{
+    width:50px;
+}
+.four-middle-3 img{
+    width: 50px;
+}
+
+/* fouth div end ------------->>>>>>>>>>>>> */
+
+/* fifth div start ------------------------------------------------>>>>>>>>>>>>>>>> */
+.five{
+    height: 385px;
+    margin-top: -34.5%;
+
+}
+.five-1{
+    flex-direction: column;
+}
+.five-2{
+    flex-direction: row;
+}
+.five-2 img{
+    width: 100px;
+    height: 140px;
+    display: flex;
+    justify-content: start;
+    margin-top: -5%;
+    margin-left: 6%;
+    border-radius: 10%;
+}
+.five-2 h5{
+    margin-left: 41%;
+    margin-top: -29%;
+    text-align: justify;
+}
+.five-3 {
+  display:none;
+}
+.five-4 img{
+     width: 100px;
+    height: 140px;
+    display: flex;
+    justify-content: start;
+    margin-top: 20%;
+    margin-left: 6%;
+    border-radius: 10%;
+
+}
+.five-4 h5{
+    margin-left: 41%;
+    margin-top: -29%;
+    text-align: justify;
+
+}
+
+/* fifth section end ---------------------------------- */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    height: 396px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* logo part */
+.footer-1{
+    margin-left: 35%;
+    margin-top: -16%;
+
+}
+.image{
+    padding: 0px;
+    margin:0px;
+    margin-left: -15%;
+    
+}
+.footer-1 img{
+    width: 130px;
+    height: 150px;
+}
+.heading{
+    line-height: 18.5px;
+    font-size: 18px;
+}
+
+.footer-2{
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-left: -5%;
+}
+
+.footcontent{
+    display: block;
+    color: white;
+    margin-top: 5%;
+}
+
+/* footer logo part end */
+.foot-1{
+    margin-top: 4%;
+}
+.foot-1 ul{
+    margin-left: -19%;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 700;
+  
+
+}
+.footer-2{
+    margin: 0px;
+}
+.blog{
+    display: none;
+
+}
+
+
+.foot-1 h2{
+    display: none;
+}
+
+.contact{
+    display: block;
+}
+.foot-2 h2{
+    display: none;
+}
+.foot-3 h2{
+    display: none;
+}
+.termcondition{
+    display: none;
+}
+.foot-2 ul{
+    display: none;
+}
+.foot-3{
+    display: none;
+}
+.foot-2{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* popular tags start--------in footer */
+.footer3{
+
+}
+.footer-3 h3{
+    font-size:24px
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -18px;
+
+    
+}
+.bt-1{
+    width:80px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bt-2{
+       width:80px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bt-3{
+    margin-top: -10px;
+    width:80px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bt-5{
+     width:80px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.bt-6{
+     width:80px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.bt-7{
+     width:80px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bt-4{
+    display: none;
+}
+/* end footer btn-------------> */
+/* copyRight--- */
+.main-footer{
+    font-size:14px;
+}
+/* About page done -------**-end-**/
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* class page start-------------------------------------------> */
+/* class page start-------------------------------------------> */
+/* class page start-------------------------------------------> */
+
+.six{
+    margin-top:53px;
+}
+.six h1{
+    margin-top: -15px;
+}
+.six-2nd{
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top:-9%;
+}
+
+.six-1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+}
+.six-2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+}
+.six-3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+}
+
+/* butoon */
+
+.six-c{
+    margin-left: 40%;
+    margin-top: -31%;
+}
+.six-b{
+    margin-left: 40%;
+    margin-top: -31%;
+}
+.six-a{
+    margin-left: 40%;
+    margin-top: -31%;
+}
+/* img  */
+
+.six-2{
+    margin-top: 30%;
+
+}
+.six-3{
+    margin-top: 30%;
+
+}
+/* content */
+.six-1 h6{
+    font-size: 18px;
+    width: 140px;
+   margin-left: 40%;
+   margin-top: -5%;
+}
+.six-2 h6{
+    font-size: 18px;
+   width: 140px;
+   margin-left: 40%;
+   margin-top: -5%;
+}
+.six-3 h6{
+    font-size: 18px;
+   width: 140px;
+   margin-left: 40%;
+   margin-top: -5%;
+}
+
+/* 6th section end =========5=================== */
+/*  7th section start------------------------------------------*/
+.seven{
+    width: 100%;
+    height: 680px;
+   margin-top: -4%;
+}
+.seven-1 img{
+    width: 120px;
+    height: 200px;
+    margin-left: 8%;
+}
+.seven-1a {
+    width: 120px;
+    margin-left: 8%;
+
+    
+}
+.seven-2 img{
+    width: 120px;
+    height: 200px;
+    margin-left: 14%;
+    margin-top: -28%;
+}
+.seven-2a {
+    width: 120px;
+    margin-left: 11%
+
+
+    
+}
+.seven-3 img{
+    width: 120px;
+    height: 200px;
+    margin-left: 8%;
+    margin-top: -16%;
+}
+.seven-3a {
+    width: 120px;
+    margin-left: 8%
+
+
+    
+}
+
+.seven-a{
+    flex-direction: column;
+}
+.seven-1{
+    margin-top:-17%
+}
+.seven-2{
+    margin-left:47%
+}
+
+/* class page end------------------------------------------------- */
+/* product page start =============================?:> */
+
+.nine{
+    margin-top: 14%;
+    width: 100%;
+    height: 450px;
+}
+
+.nine h1{
+    font-size: 25px;
+}
+
+
+.nine-2nd{
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top:-6%;
+}
+
+.nine-1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+}
+.nine-2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+}
+.nine-3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+}
+
+/* butoon */
+
+.nine-c{
+    margin-left: 40%;
+    margin-top: -31%;
+}
+.nine-b{
+    margin-left: 40%;
+    margin-top: -31%;
+}
+.nine-a{
+    margin-left: 40%;
+    margin-top: -31%;
+}
+/* img  */
+
+.nine-2{
+    margin-top: 30%;
+
+}
+.nine-3{
+    margin-top: 30%;
+
+}
+/* content */
+.nine-1 h6{
+    font-size: 18px;
+    width: 140px;
+   margin-left: 40%;
+   margin-top: -5%;
+}
+.nine-2 h6{
+    font-size: 18px;
+   width: 140px;
+   margin-left: 40%;
+   margin-top: -5%;
+}
+.nine-3 h6{
+    font-size: 18px;
+   width: 140px;
+   margin-left: 40%;
+   margin-top: -5%;
+}
+/* div nine end here-------------------------------- */
+/* div ten star on progress-----------------------========================================== */
+
+.ten1{
+    width:100%;
+    height: 680px;
+
+}
+.ten1 img{
+    width: 100%;
+    height: 680px;
+}
+
+.ten1 .sec2 img{
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+    height: 200px;
+    left:25px;
+    margin:0px;
+    padding: 0px;
+    top:8%;
+    border-radius: 10px;
+}
+.ten1 .sec2 .p4{
+    left:16px;
+    position: relative;
+    top:-412px;
+    width: 130px;
+    padding-left: 11%;
+}
+.ten1 .sec2 .img1{
+    left:165px;
+    top:33%;
+    width: 120px;
+    height: 200px;
+
+}
+.ten1 .sec2 .p5{
+    left:162px;
+    position: relative;
+    width: 140px;
+    padding-left: 8%;
+    top:-285px
+}
+.ten1 .sec2 .img2{
+    left:25px;
+    top:58%;
+    width: 120px;
+    height: 200px;
+}
+.ten1 .sec2 .p6{
+    left:11px;
+    position: relative;
+    width: 160px;
+    padding-left: 9%;
+    top:-159px;
+}
+
+.ten1 h1{
+    position: absolute;
+    top:0px;
+    left:40px;
+    font-size: 27px;
+}
+/* ten div end --------------------------------------------- */
+/* div eleven start========================================================  */
+
+.eleven{
+    width: 100%;
+    height: 700px;
+}
+.eleven h1 {
+    font-size: 25px;
+}
+.eleven-a{
+    flex-direction: column;
+    margin-top: -19%;
+    margin-left: 9%;
+}
+.eleven-1 img{
+    width: 140px;
+    height: 200px;
+    
+}
+.eleven-1a{
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 55%;
+    margin-top: -45%;
+
+}
+.eleven-2 img{
+    width: 140px;
+    height: 200px;
+    margin-top: 38%;
+}
+.eleven-2a{
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 55%;
+    margin-top: -45%;
+
+}
+.eleven-3 img{
+    width: 140px;
+    height: 200px;
+    margin-top: 38%;
+}
+.eleven-3a{
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 55%;
+    margin-top: -45%;
+
+}
+/* =---------------------------------------------------------------------------- */
+/* page product end ----------------------------------------------------------------------- */
+/* blog page start -============================================================================== */
+
+.twelve{
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    margin-top: 16%;
+}
+.twelve-1 img{
+    width: 280px;
+    height: 240px;
+    margin-top: -68%;
+    box-shadow: 3px 3px 3px black;
+}
+.twelve-2 p{
+    width: 280px;
+    height: 240px;
+    margin-left: 2px;
+    margin-top: -9%;
+
+}
+/* twelve end  -------------- */
+
+/* 13th section start----------------------------------------------> */
+.thirteen{
+    width: 100%;
+    height: 400px;
+    /* margin-top: -1%; */
+}
+.thirteen-1{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+
+}
+.thirteen-1 img{
+    width: 160px;
+    height: 310px;
+    margin-top: -147.5%;
+    box-shadow: 3px 3px 3px black;
+}
+.thirteen-1a{
+    margin-top: -75%;
+}
+
+.thirteen-1a h1{
+  font-size: 15px;
+}
+.thirteen-1a ul{
+    margin-left:-15px;
+    margin-top: -14px;
+}
+/* <!--13th section end--!>.. */
+/* 14th section start--------------------------------------> */
+
+/* .fourteen{
+    flex-direction: column-reverse;
+
+} */
+
+.fourteen{
+    width: 100%;
+    height: 710px;
+    flex-direction: column-reverse;
+}
+.fourteen-2 img{
+    width: 280px;
+    height: 240px;
+    margin-top: -98%;
+    /* box-shadow: 3px 3px 3px black; */
+}
+.fourteen-1 p{
+    width:320px;
+    height: 240px;
+    margin-left: 43px;
+    margin-top: -4%;
+
+}
+
+
+
+
+}
+/* responsive mobile view end --------------------------> */

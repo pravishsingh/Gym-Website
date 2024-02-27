@@ -1,0 +1,236 @@
+
+@media(max-width:770px) and (min-width:380px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+    nav{
+        height: 53px;
+        padding-top: 0px;
+        z-index: 1;
+    }
+    #checkbtn{
+        display: block;
+        position: absolute;
+        right:12px;
+        margin-top: 1%;
+    }
+    #check:checked ~ .ok{
+        display: block;
+       
+
+    }
+    .ok{
+        display: none;
+    }
+  nav .ok ul{
+        flex-direction: column;
+        margin-left: 16%;
+    }
+    nav ul {
+        width: 100%;
+        height: 100vh;
+        background-color:rgb(228, 158, 29,1);
+        text-align: center;
+        line-height: 70px;
+        margin-top: -21%;
+      
+    }
+    nav ul li{
+        margin-top: 0px;
+    }
+    .ok{
+        margin-top:8.4%;
+
+    }
+    #navbtn{
+        margin-left: 10%;
+        height: 40px;
+        margin-top: 5%;
+        background-color: red;
+    
+    }
+    .logo img{
+        width:130px;
+        margin-top: -24px;
+    }
+
+    /* first div start -----------------------------------------------------> */
+    .first{
+        width: 100%;
+        /* height:400px */
+    }
+    .first-1{
+        width: 380px;
+        margin-left: 4%;
+    }
+    .first img{
+        height: 550px;
+    }
+
+    /* end first div -----------------------------------------------------> */
+    /* second div start------------------------------------------------------------------> */
+
+    .second{
+        width: 100%;
+        margin-top: -20%;
+    }
+    /* end second div */
+
+    /* third div start */
+    .third-card-1{
+        width:20%;
+    }
+    .third-card-2{
+        width:20%;
+    }
+    .third-card-3{
+        width:20%;
+    }
+    /* end third div ----- */
+    /* fourth div start -----------------------------------a */
+    .four-middle{
+        margin-left: 70px;
+        height:220px
+        
+    }
+    .four-middle-1 img{
+        width:80px;
+        margin-top: 6%;
+    }
+    .four-middle-2 img{
+        width:80px;
+        margin-top: 6%;
+    }
+    .four-middle-3 img{
+        width:80px;
+        margin-top: 6%;
+    }
+    .four-middle-1 h2{
+        font-size: 20px;
+    }
+    .four-middle-2 h2{
+        font-size: 20px;
+    }
+    .four-middle-3 h2{
+        font-size: 20px;
+    }
+
+    /* end fourth div---------------------------------- */
+    /* footer sectio    n start--------------------------------------------> */
+    .heading{
+        font-size: 14px;
+        margin-top: -60px;
+        margin-left: 4px;
+    }
+    .image{
+        margin-left: -11px;
+    }
+    .footer-2{
+        margin-left: 2%;
+    }
+    .foot-1{
+        margin-left:-3%;
+    }
+    .foot-1 h2{
+        font-size: 18px;
+    }
+    .foot-2 h2{
+        font-size: 18px;
+    }
+    .foot-3 h2{
+        font-size: 18px;
+    }
+/* home page end --------------------------------------- */
+
+/* class page start --------------------------------------------------> */
+.six{
+    margin-top: 4%;
+}
+.seven{
+    height: 450px;
+}
+/* class page end  */
+
+/* product page start -----------------------------< */
+.nine{
+    margin-top: 5%;
+    height: 430px;
+}
+
+.ten{
+    width: 100%;
+    height: 500px;
+}
+.ten1 h1{
+    position: absolute;
+    font-size: 32px;
+    left:35%;
+    top:5%;
+}
+.ten1 .sec2 img{
+    left:45px;
+    top:150px
+}
+
+.ten1 .sec2 .p4{
+    position: relative;
+    left:50px;
+    margin-top:-140px;
+}
+
+
+.ten1 .sec2 .img1{
+    left:37%;
+}
+.ten1 .sec2 .p5{
+    left:38%;
+}
+.ten1 .sec2 .img2{
+    left:524px;
+}
+.ten1 .sec2 .p6{
+    left:524px;
+}
+/* product page end------------ */
+
+/* blog page start--------------> */
+.twelve{
+    justify-content:space-around;
+}
+.twelve-1 img{
+    margin-left: 14%;
+    margin-top: -4%;
+}
+.twelve-2 p{
+    width: 321px;
+    height: 350px;
+    font-size: 17px;
+    margin-left: 52px;
+
+}
+/* 12 section end  */
+/*  thirteen section start ----------------------------- */
+.thirteen-1{
+    width: 89%;
+    margin-left: 5%;
+}
+.thirteen-1a h1{
+    font-size: 25px;
+    margin-top: 3%;
+}
+.thirteen-1 img{
+    width: 270px;
+    height: 311px;
+    margin-top: 5px;
+}
+/* end thirteen section ----------- */
+/* start 14th section----------------- */
+.fourteen-1 p{
+    margin-left: -3%;
+    
+}
+/* end*/
+}
